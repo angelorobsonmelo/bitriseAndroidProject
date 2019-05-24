@@ -72,6 +72,7 @@ class LoginActivity : AppCompatActivity() {
         }
 
         password.apply {
+
             afterTextChanged {
                 loginViewModel.loginDataChanged(
                     username.text.toString(),
