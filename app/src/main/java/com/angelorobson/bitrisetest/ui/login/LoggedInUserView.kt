@@ -5,5 +5,6 @@ package com.angelorobson.bitrisetest.ui.login
  */
 data class LoggedInUserView(
     val displayName: String
-    //... other data fields that may be accessible to the UI
+    //... other data fields that ma
+    // y be accessible to the UI
 )
